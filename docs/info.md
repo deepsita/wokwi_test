@@ -9,20 +9,16 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-The circuit is a full adder with IN1,IN2,CIN inpus and sum, cout as outputs which follow the below logic.
-    sum=IN1 ^ IN2 ^ CIN
-    cout = (IN1&IN2)|(IN1&CIN)|(CIN&IN2)
+The circuit is a full adder with A,B inpus and sum, cout as outputs which follow the below logic.
+    SUM=A ^ B 
+    COUT = A &B
 
-| IN1 | IN2 | CIN | sum | cout |
-|-----|-----|-----|-----|------|
-| 0   | 0   | 0   | 0   | 0    |
-| 0   | 0   | 1   | 1   | 0    |
-| 0   | 1   | 0   | 1   | 0    |
-| 0   | 1   | 1   | 1   | 1    |
-| 1   | 0   | 0   | 1   | 0    |
-| 1   | 0   | 1   | 0   | 1    |
-| 1   | 1   | 0   | 0   | 1    |
-| 1   | 1   | 1   | 1   | 1    |
+| A   | B   | sum | cout |
+|-----|-----|-----|------|
+| 0   | 0   | 0   | 0    |
+| 0   | 1   | 1   | 0    |
+| 1   | 0   | 1   | 0    |
+| 1   | 1   | 0   | 1    |
 
 ## How to test
 
