@@ -6,6 +6,7 @@ project:
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Simple adder test circuit for demo"      # One line description of what your project does
   language:     "wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  top_module:   "bitadd" # (added this field in the effort to clear an error for docs action)
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
