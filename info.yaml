@@ -1,4 +1,4 @@
-log# Tiny Tapeout project information (Wokwi project)
+# Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     408190991774474241   # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "BITADD"      # Project title
