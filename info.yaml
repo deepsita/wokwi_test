@@ -1,11 +1,11 @@
 log# Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     408122667678580737   # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "FULLADD"      # Project title
+  wokwi_id:     408190991774474241   # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "BITADD"      # Project title
   author:       "Skandha"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Simple full adder test circuit for demo"      # One line description of what your project does
-  language:     "verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  description:  "Simple adder test circuit for demo"      # One line description of what your project does
+  language:     "wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
@@ -14,18 +14,18 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "IN1"
-  ui[1]: "IN2"
-  ui[2]: "CIN"
-  ui[3]: "VCC"
-  ui[4]: "GND"
+  ui[0]: "A"
+  ui[1]: "B"
+  ui[2]: ""
+  ui[3]: "GND"
+  ui[4]: "VCC"
   ui[5]: ""
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: "sum"
-  uo[1]: "cout"
+  uo[0]: "SUM"
+  uo[1]: "COUT"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
